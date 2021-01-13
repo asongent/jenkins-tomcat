@@ -213,15 +213,20 @@
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
   
-   <reporting>
+  <reporting>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
         <version>2.6</version>
+        <reportSets>
+          <reportSet>
+            <reports><!-- com.example.maven-project -->
+              <report>index</report>
+            </reports>
+          </reportSet>
+        </reportSets>
       </plugin>
-    </plugins>
-  </reporting>
          
   <prerequisites>
     <maven>3.0.3</maven>
