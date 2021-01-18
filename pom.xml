@@ -207,7 +207,7 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:asongent/jenkins-tomcat.gitt</connection>
+    <connection>scm:git:git@github.com:asongent/jenkins-tomcat.git</connection>
     <developerConnection>scm:git:git@github.com:asongent/jenkins-tomcat.git</developerConnection>
     <tag>HEAD</tag>
     <url>http://github.com/asongent/jenkins-tomcat</url>
