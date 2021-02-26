@@ -49,6 +49,7 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
+         <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -66,7 +67,6 @@
             </plugin>
 
             <plugin>
-              <reportPlugins>
               <artifactId>maven-surefire-report-plugin</artifactId>
             </plugin>
 
